@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    background-color: #e0aaff;
+}
+
+#welcome-login {
+    display: flex;
+    position: absolute;
+    padding: 1.5rem;
+    margin-top: 7rem;
+    margin-left: 12rem;
+}
+
+/* Input fields */
+
+.input-login-section {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 7rem;
+}
+
+#email {
+    margin: 1.3rem;
+    width: 24rem;
+    height: 2.5rem;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+
+#email::placeholder {
+    font-family: "Quicksand";
+    padding-left: 1rem;
+}
+
+#password {
+    margin: 1.3rem;
+    width: 24rem;
+    height: 2.5rem;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+
+#password::placeholder {
+    font-family: "Quicksand";
+    padding-left: 1rem;
+}
+
+
+/* Button and CheckBox */
+
+.button-checkbox {
+    display: flex;
+    position: absolute;
+    margin-top: 26rem;
+    margin-left: 9rem;
+}
+
+#forgot {
+    margin-left: 5rem;
+    font-weight: 600;
+    cursor: pointer;    
+}
+
+#keep {
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+/* Login Button */
+
+#login {
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 9rem;
+    background-color: blue;
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Quicksand";
+}
+
+#login:hover {
+    background-color: #e0aaff;
+    transition: 0.5s ease-out;
+}
+
+#account {
+    position: absolute;
+    margin-top: 35rem;
+    margin-left: 12rem
+}
+
+#account a {
+    font-weight: 600;
+}
+
+
+#main-image {
+    position: absolute;
+    height: 30rem;
+    width: 50rem;
+    margin-left: 25rem;
+    margin-top: 5rem;
+}
+
+.more-informations h4 {
+    position: absolute;
+    margin-left: 70rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.more-informations p {
+    position: absolute;
+    margin-left: 70rem;
+    margin-top: 4.3rem;
+    font-size: 1.1rem;
+}
+
+.more-informations button {
+    position: absolute;
+    margin-left: 88rem;
+    margin-top: 3rem;
+    border: 1px solid none;
+    padding: 1.1rem;
+    background-color: blue;
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-family: "Quicksand";
+    cursor: pointer;
+
+}
+
+
+.more-informations button:hover {
+    background-color: #0077b6;
+    transition: 0.5s ease-out;
+}
+
+/* Animations */
+
+@keyframes image {}
+
